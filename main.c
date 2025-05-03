@@ -17,7 +17,7 @@ int main()
     if (csv_file == NULL)
     {
         perror("Error opening the CSV file");
-        return 16;
+        return 19;
     }
     // Parse CSV data and create users
     user_t *users = read_CSV_and_create_users(csv_file, 50);
